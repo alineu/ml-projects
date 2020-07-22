@@ -1,0 +1,15 @@
+*-checkpoint.ipynb
+*.aux
+*.synctex.gz
+*.log
+*.bak
+*.fls
+*.aux
+*.bib
+*.bbi
+*.text
+*.txt
+*.xlsx
+*.pdf
+*.mat
+*.m
