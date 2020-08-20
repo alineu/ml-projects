@@ -1,6 +1,7 @@
 *-checkpoint.ipynb
 *.aux
 *.synctex.gz
+**.pyc
 *.log
 *.bak
 *.fls
@@ -17,8 +18,11 @@
 *.csv
 ppt/
 drug-DI/drug_review.ipynb
-**/__pycache__/
+**/__pycache__/*
 **/venv/
 **/*.pyc
-!heroku_intro/heroku-test-app/Procfile
-!heroku_intro/heroku-test-app/hello.py
+drug-DI/heroku_intro/heroku-test-app/.git
+drug-DI/heroku_intro/heroku-test-app/.gitignore
+!drug-DI/heroku_intro/heroku-test-app/requirements.txt
+!drug-DI/heroku_intro/heroku-test-app/Procfile
+!drug-DI/heroku_intro/heroku-test-app/hello.py
