@@ -9,6 +9,7 @@
 *.bbi
 *.text
 *.txt
+!**/requirements.txt
 *.xlsx
 *.pdf
 *.mat
@@ -16,3 +17,8 @@
 *.csv
 ppt/
 drug-DI/drug_review.ipynb
+**/__pycache__/
+**/venv/
+**/*.pyc
+!heroku_intro/heroku-test-app/Procfile
+!heroku_intro/heroku-test-app/hello.py
